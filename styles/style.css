@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/* header */
+.header-nav {
+    background: #3E8989;
+    padding: 33px 0;
+}
+.header-nav-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav-list {
+    display: flex;
+    gap: 30px;
+}
+.header-nav-link {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    font-family: 'RM';
+}
+.header-nav-link:hover {
+    border-bottom: 3px solid #FFFFFF;
+}
+.header-form {
+    display: flex;
+    max-width: 290px;
+    width: 100%;
+    border-radius: 20px;
+}
+.header-form-text {                              /* input */
+    border-radius: 20px 0px 0px 20px;
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #898989;
+    font-family: 'RR';
+    width: 100%;
+}
+.header-form-btn {                               /* button */
+    background: #295E5E;
+    border-radius: 0px 20px 20px 0px;  
+    border: none;
+    outline: none; 
+    padding: 9px 14px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    font-family: 'RR';
+}
+
+.header-content {                           /* главная картинка */
+    background: url(../imgs/main.jpg) no-repeat center top /cover;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-content-logo {                      /* GoTrip */
+    font-family: 'RSB';
+    font-size: 80px;
+    line-height: 95px;
+    color: #FFFFFF;
+}
+.header-content-text {                  /* travel comfortably with us */
+    font-family: 'RM';
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.header-content-btn {                             /* More */
+    font-family: 'ISB';
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #B4436C;
+    padding: 14px 77px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    transition: color 300ms , background 300ms ;
+}
+.header-content-btn:hover {
+    color:  #B4436C;
+    background:  #FFFFFF;
+}
+
+.main-logo {                           /* About us Catalog */
+    text-align: center;
+    font-family: 'ISB';
+    font-size: 40px;
+    line-height: 48px;
+    color: #3E8989;
+    margin-top: 80px;
+}
+.main-about-top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 97px;
+}
+.main-about-text {
+    width: 545px; 
+}
+.main-about-text p {
+    font-family: 'RR';
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+.p-twoo {
+    margin-top: 20px;
+}
+.main-catalog-things {                      /* items */
+    display: flex;
+    padding-top: 53px;
+    gap: 20px;
+}
+.main-catalog-item {
+    width: 25%;   
+}
+.item {
+    background: #EFEFEF;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main-catalog-title {
+  text-align: center;  
+  font-family: 'ISB';
+  font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-top: 30px;
+    transition: color 300ms;
+}
+.main-catalog-title:hover {
+    color: #B4436C; 
+}
+.main-contacts {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+.main-contacts-left {
+    width: 555px;
+}
+.main-contacts-title {
+    font-family: 'ISB';
+    font-size: 40px;
+    line-height: 48px;
+    color: #3E8989;
+    margin-bottom: 50px;
+}
+.main-contacts-text {
+    font-family: 'RR';
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.main-contacts-right {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.mail {
+    font-family: 'RR';
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 20px;
+}
+.call {
+    font-family: 'RR';
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.footer {
+    background: #3E8989;
+}
+.footer-text {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-family: 'RM';
+    padding-top: 40px;
+    padding-bottom: 59px;
+}
+.footer-li {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.footer-parag {
+    text-align: center;
+    font-family: 'RR';
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
